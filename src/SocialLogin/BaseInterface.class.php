@@ -1,1 +1,0 @@
-<?phpnamespace Gaoming13\SocialLogin;interface BaseInterface{    /**     * 获取跳转到第三方登录页的url     * @return string     */    public function getLoginUrl();    /**     * 获取授权后获取的用户信息     * @return array     */    public function getUserInfo();}
