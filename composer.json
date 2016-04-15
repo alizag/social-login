@@ -1,0 +1,30 @@
+{
+    "name": "gaoming13/social-login",
+    "description": "集合各种第三方登录",
+    "keywords": [
+        "third-party logins"
+    ],
+    "license": "MIT",
+    "require": {
+        "php":">=5.3",
+        "gaoming13/http-curl": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "gaoming13",
+            "email": "gaoming13@yeah.net"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-4": {
+            "Gaoming13\\SocialLogin\\": "src/SocialLogin/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+          "type": "composer",
+          "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

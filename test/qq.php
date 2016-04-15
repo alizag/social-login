@@ -1,0 +1,1 @@
+<?php    require '../autoload.php';    use \Gaoming13\SocialLogin\Qq;    $qq = new Qq();    $qq->appId = '100481313';    $qq->appkey = '06663346dc50543d42108206afdc1313';    $qq->redirectUri = 'http://www.example.com/qq/callback.php';    $loginUrl = $qq->getLoginUrl();    header('Location: ' . $loginUrl);
